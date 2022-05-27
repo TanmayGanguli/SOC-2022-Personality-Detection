@@ -1,8 +1,0 @@
-1.Since the data seems to increase exponentially, applying linear regression after taking logarithm of the number of cases
- may be helpful. After taking logarithm, the best fit line has slope = 0.116 and y-intercept = -0.22. Using these values, the 
-number of cases on 110th day is estimated as exp(110m+c) = 288673(approx).So there are clearly not enough beds.
-2.If learning rate is 0.00001, then slope of best fit line is 0.113 and y-intercept is -0.023. It is quite close to 
-the best fit line of previous case, the slight difference is because learning rate is slower here, so it converges
-more slowly towards the actual best fit line.
-If learning rate is 1, then parameters are nan i.e.slope and y-intercept increase so rapidly that in 5000 iterations, they
-cross the best fit limit and increase without bounds i.e. become very large. 
