@@ -15,4 +15,7 @@ The assignment file contains some questions regarding application of python libr
 The solution file contains the solutions to the problems which we obtained.
 
 # Week-2 ()
-The assignnment file contains a problem where linear regression is to be used to come up with a model which can predict 
+The assignnment file contains a problem where linear regression is to be used to come up with a model which can predict the number of cases of a disease on a future day given the numbers over several days. Although linear regression is not suitable for all kinds of data but some tricks can be used, like plotting the logarithm of nnumber of cases versus days, if the data varies exponentially. So the program does this and the best fit line is plotted using linear regression and based on this the predictions are made.
+
+# Week-3 ()
+
