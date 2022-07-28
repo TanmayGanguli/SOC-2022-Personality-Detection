@@ -8,3 +8,10 @@ I learnt about the concept of linear regression in machine learning and how to o
 
 # Week-3
 I learnt about the K-means algorithm and how to implement it. I also understood its drawbacks and that it may not provide the required grouping of data always but it is useful in many cases to group the data into clusters.
+
+# Week-1 ()
+The assignment file contains some questions regarding application of python libraries like numpy and pandas.
+
+The solution file contains the solutions to the problems which we obtained.
+
+# Week-2 ()
