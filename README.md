@@ -15,3 +15,4 @@ The assignment file contains some questions regarding application of python libr
 The solution file contains the solutions to the problems which we obtained.
 
 # Week-2 ()
+The assignnment file contains a problem where linear regression is to be used to come up with a model which can predict 
