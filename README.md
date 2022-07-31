@@ -1,4 +1,16 @@
 # SOC-2022-Personality-Detection
+
+Assignment 1 .txt, Assignment 2 .txt and assignment 3 .pdf files are the week 1, week 2 and week 3 assignments respectively.
+
+Assignment-1,2,3 zip files are the solutions to assignment 1,2 and 3.
+
+The text file Personalities conatains the list of questions in the questionnaire.
+
+The text file test-personality-detection contains the sample response which is classified as per the different methods explored in the main submission.
+
+The python file Personality Detection is the final submission file.
+
+
 # Week-1
 
 I learnt about the Python libraries like Numpy, Scipy and Pandas. I wrote some small codes to understand the various methods. Since the libraries are very vast with a large number of methods available, so it is not possible to remember all of them. So I keep revising time to time and consult the resources in case of any doubt. I have also done the week-1 assignment.
@@ -23,7 +35,3 @@ In the assignment we have to use k-means clustering to group the data points giv
 # Week-4 ()
 This is the final implementation of the project. There is a questionnaire with 10 questions each related to 5 different personality aspects: openness, conscientiousness, extroversion, agreableness and neuroticism. Answers have to range from 1-5, where 1 means strongly disagree, 3 means neutral and 5 means strongly agree. Over 1 million responses are collected. Task is to come up withm a model which can classify people based on their responses, into various groups. Since no training examples are available, we have to go for unsupervised learning. In this project, k-means algorithm has been used. So first the data is explored and null responses are dropped. Then sklearn library is used to create a k means clustering model and group the data. 5 clusters have been chosen as an optimal number. Then a visualisation of the mean of the response values corresponding to each personality is done to see the characteristics of each cluster. Finally I have filled in my responses to the questions and determined my personality based on the model. Another scheme of classifying the personality of a person has been explored. Since there are no correct or incorrect answers for classification, any reasonable scheme works. In my scheme, I am calculating the score of a person from 1-5 for each of the 5 aspects. It is based on the weighted average of the responses to the 10 questions for each aspects. I am considering the weights to be proportional to the variance of the responses to each question. The assumption is that if a question shows more variation in responses, it has more bearing on the personality and hence a higher weight. This assumption is reasonable as a huge number of responses are available so all types of personalities may be assumed to be represented. I have calculated the scores this way and it is not much different from the normal average of responses, indicating that all questions have similar variances.
 
-Assignment-1,2,3 zip files are the solutions to assignment 1,2 and 3.
-The text file Personalities conatains the list of questions in the questionnaire.
-The text file test-personality-detection contains the sample response which is classified as per the different methods explored in the main submission.
-The python file Personality Detection is the final submission file.
